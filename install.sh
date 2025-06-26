@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================================
-url_izin='https://raw.githubusercontent.com/farelvpn/permision/main/permision.txt'
+url_izin='https://raw.githubusercontent.com/fadzdigital/premis/main/permision.txt'
 
 ip_vps=$(curl -s ipinfo.io/ip)
 
@@ -88,7 +88,7 @@ apt install gcc -y
 apt install clang -y
 
 # Melakukan Pengambilan File Database
-wget -O /m.zip "https://github.com/farelvpn/test/releases/download/1.0/pp.zip"
+wget -O /m.zip "https://github.com/fadzdigital/Navia/releases/download/1.0/fadzvpn.zip"
 cd /
 yes A | unzip m.zip
 rm -f /m.zip
