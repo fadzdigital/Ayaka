@@ -88,7 +88,7 @@ apt install gcc -y
 apt install clang -y
 
 # Melakukan Pengambilan File Database
-wget -O /m.zip "https://github.com/fadzdigital/Navia/releases/download/1.0/fadzvpn.zip"
+wget -O /m.zip "https://github.com/fadzdigital/Navia/releases/download/1.1/fadzvpn.zip"
 cd /
 yes A | unzip m.zip
 rm -f /m.zip
